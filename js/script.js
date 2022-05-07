@@ -20,12 +20,7 @@
 // frameworks.unshift("Backbone.js");
 // frameworks.push("ReactJS", "Vue.js");
 // frameworks.splice(1, 0, "CommonJS")
-// for (let key = 0; key < frameworks.length; key++) {
-//     if (frameworks[key] == "jQuery") {
-//         let removedFramework = frameworks.splice(key, 1);
-//         alert(`${removedFramework} - это здесь лишнее`);
-//     }
-// }
+// alert(`${frameworks.splice(frameworks.indexOf("jQuery"), 1)} - это здесь лишнее`);
 // alert(frameworks);
 
 
